@@ -457,20 +457,3 @@ The paper presented at the 2022 Conference on Empirical Methods in Natural Langu
 The research opens new avenues for applying conversational AI in healthcare, offering a scalable solution for medical consultations. Future work will focus on expanding the system's medical knowledge base and improving its adaptability to diverse medical scenarios.
 
 ---
-
-### Sai Haneesha Bestha
-#### Recognizing Question Entailment (RQE) and Natural Language Inference (NLI) methods
-- **Links:** 
-  - [https://aclanthology.org/W19-5041.pdf](https://aclanthology.org/W19-5041.pdf)
-
-**Summary:** The study integrates Recognizing Question Entailment (RQE) and Natural Language Inference (NLI) methods to enhance medical question answering systems, improving candidate response filtering and reranking accuracy. A multi-task learning system leverages features from NLI and RQE models to jointly learn filtering and reranking of candidate answers, outperforming feature-engineered baselines. The study demonstrates significant accuracy improvements in both filtering and reranking with the inclusion of NLI and RQE characteristics.
-
-**Limitations:** Lexical Overlap Bias,Difficulty in Differentiating the neutral and entail statements,Computationally Expensive Approach,Performance Variability.
-
-#### Fine-Tuning PEGASUS for Consumer Health Question Summarization
- **Links:** 
-  - [https://aclanthology.org/2021.bionlp-1.37.pdf](https://aclanthology.org/2021.bionlp-1.37.pdf)
-
-**Summary:** The study develops a model for CHQ summarization in MEDIQA 2021, aiming to streamline automated question answering by addressing extraneous information. It employs an ensemble method merging question focus identification with PEGASUS for concise summaries. Various preprocessing techniques enhance performance, achieving an 11.14% ROUGE-2 F-measure against the test dataset.
-
-**Limitations:** Performance Improvement,Dataset Limitations,Preprocessing Challenges,Question Understanding.
