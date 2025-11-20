@@ -25,14 +25,14 @@ dropout = 0.1
 batch_size = 32
 
 # Training loop controls
-# clip = 50.0  # Clipping threshold to prevent exploding gradients
-# learning_rate_en = 0.0001  # Learning rate for the optimizer
-# learning_rate_de = 0.0005  # Learning rate for the optimizer
-# teacher_forcing_ratio = 0.5
-# decoder_learning_ratio = 5.0  # Ratio to adjust the decoder's learning rate relative to the encoder's
-# n_iteration = 15000  # Number of training iterations
-# print_every = 100  # Frequency of progress output
-# save_every = 1  # Frequency of saving the model
+clip = 50.0  # Clipping threshold to prevent exploding gradients
+learning_rate_en = 0.0001  # Learning rate for the optimizer
+learning_rate_de = 0.0005  # Learning rate for the optimizer
+teacher_forcing_ratio = 0.5
+decoder_learning_ratio = 5.0  # Ratio to adjust the decoder's learning rate relative to the encoder's
+n_iteration = 15000  # Number of training iterations
+print_every = 100  # Frequency of progress output
+save_every = 1  # Frequency of saving the model
 
 # Directory and corpus configurations
 corpus_name = "MedQuad"
